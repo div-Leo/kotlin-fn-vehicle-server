@@ -9,7 +9,7 @@ import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 @Component
 class ShareNowSeeder @Autowired constructor(
-        private val shareNowRepository: ShareNowRepository // replace with your own repository class
+        private val shareNowRepository: ShareNowRepository
     ) : CommandLineRunner {
     override fun run(vararg args: String?) {
         val mapper = jacksonObjectMapper()

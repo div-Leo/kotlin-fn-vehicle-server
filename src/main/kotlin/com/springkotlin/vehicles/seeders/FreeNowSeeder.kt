@@ -9,7 +9,7 @@ import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 @Component
 class FreeNowSeeder @Autowired constructor(
-        private val freeNowRepository: FreeNowRepository // replace with your own repository class
+        private val freeNowRepository: FreeNowRepository
     ) : CommandLineRunner {
     override fun run(vararg args: String?) {
         val mapper = jacksonObjectMapper()

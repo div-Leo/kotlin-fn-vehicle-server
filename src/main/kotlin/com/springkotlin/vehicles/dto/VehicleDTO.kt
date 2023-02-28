@@ -9,5 +9,5 @@ data class VehicleDTO (
     val coordinates: List<Double>, // [latitude, longitude]
     val engineType: String,
     val fuel: Int?,
-    val licencePlate: String,
+    val licencePlate: String
 )

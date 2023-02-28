@@ -72,18 +72,30 @@ class VehiclesService (
 ) {
 
     fun retrieveAllShareNowVehicles(type: String?, pageable: Pageable) : Page<VehicleDTO> {
-        val newPageable = PageRequest.of(pageable.pageNumber, pageable.pageSize / 2, pageable.sort)
+        if (type === "FREENOW") {
+            val freeNowVehiclesDTO = freeNowRepository.findAll(pageable).map {
+                freeNowEntityToDTO(it)
+            }
 
-        val shareNowVehiclesDTO: Page<VehicleDTO> = shareNowRepository.findAll(newPageable).map {
-            shareNowEntityToDTO(it)
+            return freeNowVehiclesDTO
+
+        } else if (type === "SHARENOW") {
+            val shareNowVehiclesDTO: Page<VehicleDTO> = shareNowRepository.findAll(pageable).map {
+                shareNowEntityToDTO(it)
+            }
+            return shareNowVehiclesDTO
+        } else {
+            val newPageable = PageRequest.of(pageable.pageNumber, pageable.pageSize / 2, pageable.sort)
+
+            val shareNowVehiclesDTO: Page<VehicleDTO> = shareNowRepository.findAll(newPageable).map {
+                shareNowEntityToDTO(it)
+            }
+
+            val freeNowVehiclesDTO = freeNowRepository.findAll(newPageable).map {
+                freeNowEntityToDTO(it)
+            }
+            return concatPages(shareNowVehiclesDTO, freeNowVehiclesDTO)
         }
-
-        val freeNowVehiclesDTO = freeNowRepository.findAll(newPageable).map {
-            freeNowEntityToDTO(it)
-        }
-
-
-        return concatPages(shareNowVehiclesDTO, freeNowVehiclesDTO)
     }
 
     fun addVehicle(vehicleDTO: VehicleDTO): VehicleDTO {
