@@ -1,0 +1,505 @@
+ [
+    {
+        "address": "Lesserstraße 170, 22049 Hamburg",
+        "longitude": 10.07526,
+        "latitude": 53.59301,
+        "engineType": "PETROL",
+        "condition": "BAD",
+        "fuel": 42,
+        "licencePlate": "HHZ 23 H8522"
+    },
+    {
+        "address": "Grosse Reichenstraße 7, 20457 Hamburg",
+        "longitude": 9.99622,
+        "latitude": 53.54847,
+        "engineType": "PETROL",
+        "condition": "BAD",
+        "fuel": 45,
+        "licencePlate": "HHZ 23 H8480"
+    },
+    {
+        "address": "Spreenende 1 - 11, 22453 Hamburg (Umkreis 100m)",
+        "longitude": 9.97417,
+        "latitude": 53.61274,
+        "engineType": "ELECTRIC",
+        "condition": "BAD",
+        "fuel": 57,
+        "licencePlate": "HHZ 23 H8001"
+    },
+    {
+        "address": "Ring 2, 22043 Hamburg",
+        "longitude": 10.07838,
+        "latitude": 53.56388,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 84,
+        "licencePlate": "HHZ 23 H8002"
+    },
+    {
+        "address": "Kroogblöcke 32, 22119 Hamburg",
+        "longitude": 10.09416,
+        "latitude": 53.55258,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 54,
+        "licencePlate": "HHZ 23 H8003"
+    },
+    {
+        "address": "Am Alten Posthaus 6, 22041 Hamburg",
+        "longitude": 10.07107,
+        "latitude": 53.5708,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 57,
+        "licencePlate": "HHZ 23 H8004"
+    },
+    {
+        "address": "Flughafen HH (Mietwagenzentrum Ebene 1 oder 5)",
+        "longitude": 10.00708,
+        "latitude": 53.62914,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 36,
+        "licencePlate": "HHZ 23 H8005"
+    },
+    {
+        "address": "Schnackenburgallee 51, 22525 Hamburg",
+        "longitude": 9.91765,
+        "latitude": 53.58102,
+        "engineType": "PETROL",
+        "condition": "BAD",
+        "fuel": 96,
+        "licencePlate": "HHZ 23 H8487"
+    },
+    {
+        "address": "Winsbergring 25, 22525 Hamburg",
+        "longitude": 9.91283,
+        "latitude": 53.5751,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8007"
+    },
+    {
+        "address": "Stoltenstraße 13, 22119 Hamburg",
+        "longitude": 10.09509,
+        "latitude": 53.56285,
+        "engineType": "PETROL",
+        "condition": "BAD",
+        "fuel": 27,
+        "licencePlate": "HHZ 23 H8009"
+    },
+    {
+        "address": "Bergedorfer Schlossstraße 9, 21029 Hamburg",
+        "longitude": 10.21285,
+        "latitude": 53.48873,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 66,
+        "licencePlate": "HHZ 23 H8012"
+    },
+    {
+        "address": "Alsterdorfer Straße 511, 22337 Hamburg",
+        "longitude": 10.0272,
+        "latitude": 53.61754,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8013"
+    },
+    {
+        "address": "Winterhuder Weg 94, 22085 Hamburg",
+        "longitude": 10.02115,
+        "latitude": 53.57541,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8014"
+    },
+    {
+        "address": "Speckenreye 44, 22119 Hamburg",
+        "longitude": 10.09865,
+        "latitude": 53.55291,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8015"
+    },
+    {
+        "address": "Schiffbeker Höhe 32, 22119 Hamburg",
+        "longitude": 10.11379,
+        "latitude": 53.54571,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8017"
+    },
+    {
+        "address": "Bei der Martinskirche 2, 22111 Hamburg",
+        "longitude": 10.08304,
+        "latitude": 53.55027,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 93,
+        "licencePlate": "HHZ 23 H8019"
+    },
+    {
+        "address": "Stavenhagenstraße 29 - 33, 22453 Hamburg (Umkreis 100m)",
+        "longitude": 9.96875,
+        "latitude": 53.61041,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 48,
+        "licencePlate": "HHZ 23 H8021"
+    },
+    {
+        "address": "Parkplatz Studio Hamburg",
+        "longitude": 10.12585,
+        "latitude": 53.58416,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 18,
+        "licencePlate": "HHZ 23 H8024"
+    },
+    {
+        "address": "Teutonenweg 131, 22453 Hamburg",
+        "longitude": 9.97241,
+        "latitude": 53.6361,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8026"
+    },
+    {
+        "address": "Stadtbahnstraße 17, 22393 Hamburg",
+        "longitude": 10.10799,
+        "latitude": 53.65365,
+        "engineType": "ELECTRIC",
+        "condition": "BAD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8027"
+    },
+    {
+        "address": "Feuerbergstraße 43, 22337 Hamburg (Umkreis 100m)",
+        "longitude": 10.02998,
+        "latitude": 53.61327,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 39,
+        "licencePlate": "HHZ 23 H8028"
+    },
+    {
+        "address": "Semperstraße 19, 22303 Hamburg",
+        "longitude": 10.0145,
+        "latitude": 53.58543,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 87,
+        "licencePlate": "HHZ 23 H8029"
+    },
+    {
+        "address": "Öjendorfer Weg 81, 22119 Hamburg",
+        "longitude": 10.11645,
+        "latitude": 53.54684,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 60,
+        "licencePlate": "HHZ 23 H8030"
+    },
+    {
+        "address": "Flughafen HH (Mietwagenzentrum Ebene 1 oder 5)",
+        "longitude": 10.00708,
+        "latitude": 53.62914,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8597"
+    },
+    {
+        "address": "In der Niederung 8 - 10, 22047 Hamburg (Umkreis 300m)",
+        "longitude": 10.08386,
+        "latitude": 53.5959,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 21,
+        "licencePlate": "HHZ 23 H8034"
+    },
+    {
+        "address": "Kurze Mühren 8, 20095 Hamburg",
+        "longitude": 10.00329,
+        "latitude": 53.5529,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 96,
+        "licencePlate": "HHZ 23 H8035"
+    },
+    {
+        "address": "Dag-Hammarskjöld-Platz 2, 20354 Hamburg (Umkreis 100m)",
+        "longitude": 9.98881,
+        "latitude": 53.56082,
+        "engineType": "PETROL",
+        "condition": "BAD",
+        "fuel": 60,
+        "licencePlate": "HHZ 23 H8038"
+    },
+    {
+        "address": "Kapstadtring 2, 22297 Hamburg",
+        "longitude": 10.02811,
+        "latitude": 53.60227,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 57,
+        "licencePlate": "HHZ 23 H8040"
+    },
+    {
+        "address": "Nedderndorfer Weg 23, 22111 Hamburg",
+        "longitude": 10.08371,
+        "latitude": 53.54916,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8042"
+    },
+    {
+        "address": "Curtiusweg 7, 20535 Hamburg",
+        "longitude": 10.06444,
+        "latitude": 53.55848,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 93,
+        "licencePlate": "HHZ 23 H8043"
+    },
+    {
+        "address": "Höperfeld 17, 21033 Hamburg",
+        "longitude": 10.20263,
+        "latitude": 53.49517,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 27,
+        "licencePlate": "HHZ 23 H8045"
+    },
+    {
+        "address": "Steinstraße 7, 20095 Hamburg",
+        "longitude": 10.00395,
+        "latitude": 53.55019,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8046"
+    },
+    {
+        "address": "Wrangelstraße 106, 20253 Hamburg",
+        "longitude": 9.96579,
+        "latitude": 53.58333,
+        "engineType": "ELECTRIC",
+        "condition": "BAD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8047"
+    },
+    {
+        "address": "Hachmannplatz 2, 20099 Hamburg (Umkreis 100m)",
+        "longitude": 10.00684,
+        "latitude": 53.55435,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 57,
+        "licencePlate": "HHZ 23 H8048"
+    },
+    {
+        "address": "Rahlau 38, 22045 Hamburg",
+        "longitude": 10.11626,
+        "latitude": 53.58015,
+        "engineType": "PETROL",
+        "condition": "BAD",
+        "fuel": 84,
+        "licencePlate": "HHZ 23 H8049"
+    },
+    {
+        "address": "Oktaviostraße 110, 22043 Hamburg",
+        "longitude": 10.10214,
+        "latitude": 53.56732,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 54,
+        "licencePlate": "HHZ 23 H8050"
+    },
+    {
+        "address": "Bömelburgstieg 1, 22111 Hamburg",
+        "longitude": 10.08627,
+        "latitude": 53.54892,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 78,
+        "licencePlate": "HHZ 23 H8052"
+    },
+    {
+        "address": "Rhiemsweg 12, 22111 Hamburg",
+        "longitude": 10.07491,
+        "latitude": 53.55548,
+        "engineType": "ELECTRIC",
+        "condition": "BAD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8053"
+    },
+    {
+        "address": "Stein-Hardenberg-Straße 58 - 60, 22045 Hamburg (Umkreis 100m)",
+        "longitude": 10.12226,
+        "latitude": 53.58647,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 69,
+        "licencePlate": "HHZ 23 H8055"
+    },
+    {
+        "address": "Eichenhag 3, 22453 Hamburg",
+        "longitude": 9.95918,
+        "latitude": 53.61119,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 48,
+        "licencePlate": "HHZ 23 H8056"
+    },
+    {
+        "address": "Silbersackstraße 5, 20359 Hamburg",
+        "longitude": 9.96004,
+        "latitude": 53.54916,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 96,
+        "licencePlate": "HHZ 23 H8058"
+    },
+    {
+        "address": "Ohlstücken 5, 21033 Hamburg",
+        "longitude": 10.2053,
+        "latitude": 53.49476,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 51,
+        "licencePlate": "HHZ 23 H8059"
+    },
+    {
+        "address": "Garstedter Weg 248, 22453 Hamburg",
+        "longitude": 9.96901,
+        "latitude": 53.63708,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 81,
+        "licencePlate": "HHZ 23 H8592"
+    },
+    {
+        "address": "Hansehof",
+        "longitude": 10.12173,
+        "latitude": 53.57905,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 54,
+        "licencePlate": "HHZ 23 H8061"
+    },
+    {
+        "address": "Ilenkruut 24, 22179 Hamburg",
+        "longitude": 10.06436,
+        "latitude": 53.59463,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 60,
+        "licencePlate": "HHZ 23 H8064"
+    },
+    {
+        "address": "Neumayerstraße 3, 20459 Hamburg",
+        "longitude": 9.97354,
+        "latitude": 53.54829,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8065"
+    },
+    {
+        "address": "Ernst-Merck-Straße 4 - 14, 20099 Hamburg (Umkreis 300m)",
+        "longitude": 10.00486,
+        "latitude": 53.55403,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 87,
+        "licencePlate": "HHZ 23 H8318"
+    },
+    {
+        "address": "Domplatz, 20095 Hamburg",
+        "longitude": 9.99774,
+        "latitude": 53.54879,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 90,
+        "licencePlate": "HHZ 23 H8067"
+    },
+    {
+        "address": "Klosterwall 3, 20095 Hamburg",
+        "longitude": 10.00596,
+        "latitude": 53.54982,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 57,
+        "licencePlate": "HHZ 23 H8069"
+    },
+    {
+        "address": "Gottschedstraße 11, 22301 Hamburg",
+        "longitude": 10.0116,
+        "latitude": 53.58832,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8070"
+    },
+    {
+        "address": "Saseler Loge 12, 22393 Hamburg",
+        "longitude": 10.10302,
+        "latitude": 53.65171,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 100,
+        "licencePlate": "HHZ 23 H8075"
+    },
+    {
+        "address": "Schatzmeisterstraße 14, 22043 Hamburg",
+        "longitude": 10.07798,
+        "latitude": 53.56894,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 93,
+        "licencePlate": "HHZ 23 H8076"
+    },
+    {
+        "address": "Schopenstehl 30, 20095 Hamburg",
+        "longitude": 9.99815,
+        "latitude": 53.54867,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 27,
+        "licencePlate": "HHZ 23 H8079"
+    },
+    {
+        "address": "Schnackenburgallee 52, 22525 Hamburg",
+        "longitude": 9.91815,
+        "latitude": 53.58024,
+        "engineType": "ELECTRIC",
+        "condition": "GOOD",
+        "fuel": 78,
+        "licencePlate": "HHZ 23 H8080"
+    },
+    {
+        "address": "Ballindamm 14, 20095 Hamburg",
+        "longitude": 9.9987,
+        "latitude": 53.55417,
+        "engineType": "PETROL",
+        "condition": "BAD",
+        "fuel": 60,
+        "licencePlate": "HHZ 23 H8081"
+    },
+    {
+        "address": "Parkhaus Bleichenhof, Parkdeck R",
+        "longitude": 9.98673,
+        "latitude": 53.55201,
+        "engineType": "PETROL",
+        "condition": "GOOD",
+        "fuel": 66,
+        "licencePlate": "HHZ 23 H8082"
+    }]
