@@ -3,6 +3,8 @@ package com.springkotlin.vehicles.service
 import com.springkotlin.vehicles.dto.VehicleDTO
 import com.springkotlin.vehicles.entity.FreeNow
 import com.springkotlin.vehicles.entity.ShareNow
+import com.springkotlin.vehicles.exeptions.VehicleMissingTypeException
+import com.springkotlin.vehicles.exeptions.VehicleNotFoundException
 import com.springkotlin.vehicles.repositiry.FreeNowRepository
 import com.springkotlin.vehicles.repositiry.ShareNowRepository
 import org.springframework.data.domain.Page
@@ -99,19 +101,19 @@ class VehiclesService (
     }
 
     fun addVehicle(vehicleDTO: VehicleDTO): VehicleDTO {
-        if (vehicleDTO.type === "FREENOW") {
+        return if (vehicleDTO.type === "FREENOW") {
             val vehicleEntity = freeNowDTOToEntity(vehicleDTO)
             freeNowRepository.save(vehicleEntity)
 
-            return freeNowEntityToDTO(vehicleEntity)
+            freeNowEntityToDTO(vehicleEntity)
 
         } else if (vehicleDTO.type === "SHARENOW") {
             val vehicleEntity = shareNowDTOToEntity(vehicleDTO)
             shareNowRepository.save(vehicleEntity)
 
-            return shareNowEntityToDTO(vehicleEntity)
+            shareNowEntityToDTO(vehicleEntity)
         } else {
-//            throw VehicleMissingTypeException("type should be specified in Vehicle, please assign SHARENOW or FREENOW to property 'type'")
+            throw VehicleMissingTypeException("type should be specified in Vehicle, please assign SHARENOW or FREENOW to property 'type'")
         }
 
         return vehicleDTO
@@ -151,7 +153,7 @@ class VehiclesService (
                         shareNowEntityToDTO(it)
                     }
             } else {
-//                throw CourseNotFoundException("No Vehicle found for the passed in Id : $vehicleID")
+                throw VehicleNotFoundException("No Vehicle found for the passed in Id : $vehicleId")
             }
         }
     }
@@ -173,7 +175,7 @@ class VehiclesService (
                         shareNowRepository.deleteById(vehicleId)
                     }
             } else {
-//                throw CourseNotFoundException("No Vehicle found for the passed in id : $vehicleID")
+                throw VehicleNotFoundException("No Vehicle found for the passed in Id : $vehicleId")
             }
         }
     }
