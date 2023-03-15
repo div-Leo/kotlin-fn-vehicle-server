@@ -7,7 +7,7 @@ import jakarta.persistence.*
 data class ShareNow (
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    val id: Int?,
+    val id: Long?,
     var condition: String,
     var address: String,
     var engineType: String,
@@ -15,4 +15,8 @@ data class ShareNow (
     var longitude: Double,
     var fuel: Int,
     var licencePlate: String,
+
+    // on the referenced table we need to say what's the relation and say by which key is mapped
+    @OneToOne(mappedBy = "shareNowVehicle", cascade = [CascadeType.ALL])
+    val vehicle: Vehicle? = null
 )

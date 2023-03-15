@@ -1,6 +1,7 @@
 package com.springkotlin.vehicles.controller
 
 import com.springkotlin.vehicles.dto.VehicleDTO
+import com.springkotlin.vehicles.dto.VehicleType
 import com.springkotlin.vehicles.service.VehiclesService
 import jakarta.validation.Valid
 import org.springframework.data.domain.Page
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.*
 class VehiclesController (val vehiclesService : VehiclesService) {
     @GetMapping
     fun retrieveAllVehicles(
-        @RequestParam("type", required = false) type: String?,
+        @RequestParam("type", required = false) type: VehicleType?,
         pageable: Pageable
     ) : Page<VehicleDTO>
     = vehiclesService.retrieveAllShareNowVehicles(type, pageable)

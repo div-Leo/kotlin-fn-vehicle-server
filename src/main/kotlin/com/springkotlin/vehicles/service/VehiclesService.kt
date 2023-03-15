@@ -1,16 +1,16 @@
 package com.springkotlin.vehicles.service
 
 import com.springkotlin.vehicles.dto.VehicleDTO
+import com.springkotlin.vehicles.dto.VehicleType
 import com.springkotlin.vehicles.entity.FreeNow
 import com.springkotlin.vehicles.entity.ShareNow
+import com.springkotlin.vehicles.entity.Vehicle
 import com.springkotlin.vehicles.exeptions.VehicleMissingTypeException
 import com.springkotlin.vehicles.exeptions.VehicleNotFoundException
 import com.springkotlin.vehicles.repositiry.FreeNowRepository
 import com.springkotlin.vehicles.repositiry.ShareNowRepository
-import org.springframework.data.domain.Page
-import org.springframework.data.domain.PageImpl
-import org.springframework.data.domain.PageRequest
-import org.springframework.data.domain.Pageable
+import com.springkotlin.vehicles.repositiry.VehicleRepository
+import org.springframework.data.domain.*
 import org.springframework.stereotype.Service
 import java.util.stream.Collectors
 import java.util.stream.Stream
@@ -24,7 +24,7 @@ fun <T> concatPages(page1: Page<T>, page2: Page<T>): Page<T> {
 
 fun freeNowEntityToDTO (it: FreeNow) = VehicleDTO(
     id = it.id,
-    type = "FREENOW",
+    type = VehicleType.FREENOW,
     state = it.state,
     condition = it.condition,
     coordinates = listOf(it.latitude, it.longitude),
@@ -36,7 +36,7 @@ fun freeNowEntityToDTO (it: FreeNow) = VehicleDTO(
 
 fun shareNowEntityToDTO (it: ShareNow) = VehicleDTO(
         id = it.id,
-        type = "SHARENOW",
+        type = VehicleType.SHARENOW,
         condition = it.condition,
         address = it.address,
         coordinates = listOf(it.latitude, it.longitude),
@@ -70,48 +70,54 @@ fun shareNowDTOToEntity (it: VehicleDTO) = ShareNow(
 @Service
 class VehiclesService (
     private val shareNowRepository: ShareNowRepository,
-    private val freeNowRepository: FreeNowRepository
+    private val freeNowRepository: FreeNowRepository,
+    private val vehicleRepository: VehicleRepository,
 ) {
 
-    fun retrieveAllShareNowVehicles(type: String?, pageable: Pageable) : Page<VehicleDTO> {
-        if (type === "FREENOW") {
+    fun retrieveAllShareNowVehicles(type: VehicleType?, pageable: Pageable) : Page<VehicleDTO> {
+        if (type === VehicleType.FREENOW) {
             val freeNowVehiclesDTO = freeNowRepository.findAll(pageable).map {
                 freeNowEntityToDTO(it)
             }
 
             return freeNowVehiclesDTO
 
-        } else if (type === "SHARENOW") {
+        } else if (type === VehicleType.SHARENOW) {
             val shareNowVehiclesDTO: Page<VehicleDTO> = shareNowRepository.findAll(pageable).map {
                 shareNowEntityToDTO(it)
             }
             return shareNowVehiclesDTO
         } else {
-            val newPageable = PageRequest.of(pageable.pageNumber, pageable.pageSize / 2, pageable.sort)
-
-            val shareNowVehiclesDTO: Page<VehicleDTO> = shareNowRepository.findAll(newPageable).map {
-                shareNowEntityToDTO(it)
+            val newPageable = PageRequest.of(pageable.pageNumber, pageable.pageSize, Sort.by("licencePlate"))
+            return vehicleRepository.findAll(newPageable).map {
+                it.freeNowVehicle?.let { fn ->
+                    freeNowEntityToDTO(fn)
+                } ?: run {
+                    it.shareNowVehicle?.let { sn ->
+                        shareNowEntityToDTO(sn)
+                    }
+                }
             }
-
-            val freeNowVehiclesDTO = freeNowRepository.findAll(newPageable).map {
-                freeNowEntityToDTO(it)
-            }
-            return concatPages(shareNowVehiclesDTO, freeNowVehiclesDTO)
         }
     }
 
     fun addVehicle(vehicleDTO: VehicleDTO): VehicleDTO {
-        return if (vehicleDTO.type === "FREENOW") {
+        return if (vehicleDTO.type === VehicleType.FREENOW) {
             val vehicleEntity = freeNowDTOToEntity(vehicleDTO)
-            freeNowRepository.save(vehicleEntity)
+            val persistedEntity = freeNowRepository.save(vehicleEntity)
 
-            freeNowEntityToDTO(vehicleEntity)
+            val vehicle = Vehicle(licencePlate = persistedEntity.licencePlate, freeNowVehicle = persistedEntity)
+            vehicleRepository.save(vehicle)
 
-        } else if (vehicleDTO.type === "SHARENOW") {
+            freeNowEntityToDTO(persistedEntity)
+        } else if (vehicleDTO.type === VehicleType.SHARENOW) {
             val vehicleEntity = shareNowDTOToEntity(vehicleDTO)
-            shareNowRepository.save(vehicleEntity)
+            val persistedEntity = shareNowRepository.save(vehicleEntity)
 
-            shareNowEntityToDTO(vehicleEntity)
+            val vehicle = Vehicle(licencePlate = persistedEntity.licencePlate, shareNowVehicle = persistedEntity)
+            vehicleRepository.save(vehicle)
+
+            shareNowEntityToDTO(persistedEntity)
         } else {
             throw VehicleMissingTypeException("type should be specified in Vehicle, please assign SHARENOW or FREENOW to property 'type'")
         }

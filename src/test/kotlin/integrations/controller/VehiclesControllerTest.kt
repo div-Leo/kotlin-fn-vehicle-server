@@ -1,6 +1,7 @@
 package integrations.controller
 
 import com.springkotlin.vehicles.dto.VehicleDTO
+import com.springkotlin.vehicles.dto.VehicleType
 import com.springkotlin.vehicles.repositiry.FreeNowRepository
 import com.springkotlin.vehicles.repositiry.ShareNowRepository
 import integrations.utils.freeNowEntityList
@@ -20,7 +21,7 @@ import org.springframework.web.bind.annotation.*
 
 val freeNowVehicleDTO = VehicleDTO(
     id = null,
-    type = "FREENOW",
+    type = VehicleType.FREENOW,
     state = "ACTIVE",
     condition = "GOOD",
     engineType = "PETROL",
@@ -30,7 +31,7 @@ val freeNowVehicleDTO = VehicleDTO(
 
 val shareNowVehicleDTO = VehicleDTO(
     id = null,
-    type = "SHARENOW",
+    type = VehicleType.SHARENOW,
     condition = "BAD",
     address = "Via Solari 11",
     coordinates = listOf(67.4567890, 42.456789),

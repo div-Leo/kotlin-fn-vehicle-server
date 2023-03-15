@@ -7,11 +7,14 @@ import jakarta.persistence.*
 data class FreeNow (
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    val id: Int?,
+    val id: Long?,
     var state: String,
     var condition: String,
     var engineType: String,
     var latitude: Double,
     var longitude: Double,
     var licencePlate: String,
+
+    @OneToOne(mappedBy = "freeNowVehicle", cascade = [CascadeType.ALL])
+    var vehicle: Vehicle? = null
 )
