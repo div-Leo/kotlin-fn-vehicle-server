@@ -1,0 +1,426 @@
+ [
+    {
+      "latitude": 53.5532316,
+      "longitude": 10.0087783,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8006",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5514746,
+      "longitude": 10.0031117,
+      "engineType": "ELECTRIC",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8008",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.55342888743947,
+      "longitude": 10.007842183122419,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8010",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5526994,
+      "longitude": 9.9976604,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8011",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5563816,
+      "longitude": 10.0056066,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8016",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.54261857635024,
+      "longitude": 9.993432147457497,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8018",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.58222524795621,
+      "longitude": 10.066394607153665,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8020",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.568316,
+      "longitude": 10.0243459,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8022",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.55291415423418,
+      "longitude": 10.019970660734215,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8031",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.54321269117176,
+      "longitude": 9.998483342769234,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8032",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5518609,
+      "longitude": 9.9350198,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8033",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5715353,
+      "longitude": 9.9663805,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8036",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5809492,
+      "longitude": 9.988807,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8039",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.565011356366696,
+      "longitude": 9.994596751778024,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8051",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.56297656894067,
+      "longitude": 10.018685709801503,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8054",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5501975380383,
+      "longitude": 9.993415838116773,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8057",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5535587,
+      "longitude": 10.0906007,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8060",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.55428890902789,
+      "longitude": 10.013872738549981,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8062",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5573574,
+      "longitude": 10.0027863,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8063",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.595217847041205,
+      "longitude": 10.043809439807136,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8066",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5327912,
+      "longitude": 10.0218834,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8071",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5538466,
+      "longitude": 10.0047123,
+      "engineType": "ELECTRIC",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8072",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.55184328281651,
+      "longitude": 9.93495876901777,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8077",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.55471016546183,
+      "longitude": 9.9484746330359,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8078",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5664085,
+      "longitude": 9.9896768,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8083",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.58926274150742,
+      "longitude": 9.976661874525234,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8087",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.56999156961168,
+      "longitude": 9.859752041761261,
+      "state": "ACTIVE",
+      "engineType": "ELECTRIC",
+      "licencePlate": "HHZ 23 H8090",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5537081,
+      "longitude": 10.0048607,
+      "engineType": "ELECTRIC",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8091",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.561428,
+      "longitude": 9.930687,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8098",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5772199,
+      "longitude": 9.9709792,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8099",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.560432546895726,
+      "longitude": 9.98929414232407,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8104",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5608329,
+      "longitude": 9.9901945,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8105",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5638802,
+      "longitude": 9.9902959,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8108",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.55085920547466,
+      "longitude": 9.996736831972372,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8112",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.54752350137899,
+      "longitude": 10.03670325503688,
+      "engineType": "ELECTRIC",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8115",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5724743,
+      "longitude": 10.0685937,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8119",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.564109,
+      "longitude": 9.9664291,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8122",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.59121116321327,
+      "longitude": 9.981196841120685,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8134",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.55841394053172,
+      "longitude": 10.007518725479029,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8135",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5457517,
+      "longitude": 9.9337383,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8138",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5637883,
+      "longitude": 9.98921,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8139",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5529716,
+      "longitude": 10.0082116,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8142",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.562666420439,
+      "longitude": 9.92121230824155,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8144",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.550522,
+      "longitude": 9.9965282,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8145",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5879164,
+      "longitude": 10.0037117,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8146",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5500967,
+      "longitude": 9.993567,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8156",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.588264,
+      "longitude": 9.968132,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8158",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5426005,
+      "longitude": 9.993254,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8159",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5527487,
+      "longitude": 10.0080893,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8162",
+      "condition": "BAD"
+    },
+    {
+      "latitude": 53.5496851,
+      "longitude": 9.9993823,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8164",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5985315,
+      "longitude": 9.9267756,
+      "engineType": "PETROL",
+      "state": "INACTIVE",
+      "licencePlate": "HHZ 23 H8171",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5510646,
+      "longitude": 10.0003137,
+      "engineType": "ELECTRIC",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8174",
+      "condition": "GOOD"
+    },
+    {
+      "latitude": 53.5450286,
+      "longitude": 9.9973307,
+      "engineType": "PETROL",
+      "state": "ACTIVE",
+      "licencePlate": "HHZ 23 H8176",
+      "condition": "BAD"
+    }
+ ]
